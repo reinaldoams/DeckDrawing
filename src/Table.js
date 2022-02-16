@@ -8,7 +8,7 @@ class Table extends Component {
         this.state = {
             deckId: '',
             drewCards: [],
-            cardsInTheDeck: 99
+            cardsInTheDeck: 52
         }
         this.handleDraw = this.handleDraw.bind(this)
     }
@@ -40,6 +40,7 @@ class Table extends Component {
             <div className='tableTitle'>Deck of cards</div>
             <Deck cards={this.state.drewCards} />
             <button onClick={this.handleDraw}>draw</button>
+            <h1>Cards left: {this.state.cardsInTheDeck}</h1>
             </div>
         )
     }
