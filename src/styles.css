@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+}
+
+.Table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tableTitle {
+    margin: 5rem;
+    font-size: 7rem;
+}
+
+.Table button {
+    min-width: 100%;
+    padding: 2rem;
+    background-color: yellow;
+}
+
+.Deck {
+    min-height: 25rem;
+    transition: 1s;
+}
+
+.cardImage {
+    position: absolute;
+}
